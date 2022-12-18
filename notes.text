@@ -1,0 +1,13 @@
+Installation with commands:
+    - npx create-react-app . -> to create app
+    - .env -> to prevent your .env file from being tracked by Git.
+    - npm start ->  React application is now running at the localhost:3000 location, 
+                    viewable in your web browser
+    - npm i react-router-dom -> enable in-browser routing, 
+                                which is a key component of so-called "single page" web applications (SPAs). 
+                                This means that our application will not rely on server requests for all page changes,
+                                but some (or potentially all) URL changes will be handled by JavaScript in the browser itself.
+
+Subdirectory:
+    - components -> where all the React components will reside (except for App.js)
+    - services -> where we'll put other scripts that the components will rely on to communicate with the API.
