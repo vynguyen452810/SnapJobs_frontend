@@ -7,6 +7,7 @@ Installation with commands:
                                 which is a key component of so-called "single page" web applications (SPAs). 
                                 This means that our application will not rely on server requests for all page changes,
                                 but some (or potentially all) URL changes will be handled by JavaScript in the browser itself.
+    - npm i bootstrap react-bootstrap -> install Bootstrap and React Bootstrap for styling
 
 Subdirectory:
     - components -> where all the React components will reside (except for App.js)
